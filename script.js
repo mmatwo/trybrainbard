@@ -29,7 +29,8 @@ function setupImageCarousel() {
         'images/AppStore2.png',
         'images/AppStore3.png',
         'images/AppStore4.png',
-        'images/AppStore5.png'
+        'images/AppStore5.png',
+        'images/AppStore6.png'
     ];
     
     // Create and append all images
