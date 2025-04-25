@@ -95,8 +95,8 @@ header {
 
 /* Button Styles */
 .cta-button, .app-button {
-    background-color: #000000;
-    color: #f9f9f9;
+    background-color: #9DD2EF;
+    color: #000000;
     border: none;
     border-radius: 6px;
     font-weight: 600;
@@ -109,7 +109,8 @@ header {
 }
 
 .cta-button:hover, .app-button:hover {
-    background-color: #333;
+    background-color: #9DD2EF;
+    /* background-color: #333; */
 }
 
 .app-button {
@@ -118,11 +119,14 @@ header {
     align-items: center;
     justify-content: center;
     padding: 12px 32px 12px 48px;
-    border-radius: 8px;
+    border-radius: 80px;
     overflow: hidden;
     outline: none;
     transition: all 0.3s ease;
     text-decoration: none;
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .app-button:focus {
@@ -152,6 +156,7 @@ header {
 
 .app-button:hover .button-text {
     transform: translateX(-12px);
+    font-size: 16px;
 }
 
 .app-button .icon-right {
@@ -409,7 +414,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    
+
 }
 
 @media (max-width: 600px) {
@@ -422,7 +427,7 @@ footer {
         margin-bottom: 50px;
 
     }
-    
+
     header {
         padding: 15px 0;
     }
